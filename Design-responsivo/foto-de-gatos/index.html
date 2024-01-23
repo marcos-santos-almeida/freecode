@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foto de gatos</title>
+</head>
+<body>
+    <header>
+        <h1>AppFotoDeGatos</h1>
+
+        <h2>Foto de gatos</h2>
+
+        <p>Veja mais <a href="https://freecatphotoapp.com" target="_blank">fotos de gatos</a> em nossa galeria.</p>
+    </header>
+    <main>
+        <section>
+            <figure>
+                <img src="cat.jpg" alt="gato">
+            </figure>
+            <h2>lista de gatos</h2>
+        </section>
+
+        <section>
+            <h3>3 Coisas que gatos adoram:</h3>
+            <div>
+                <ul>
+                    <li>petiscos de gato</li>
+                    <li>lugares de laser</li>
+                    <li>lasanha</li>
+                </ul>
+                <figure>
+                    <img src="lasagna.jpg" alt="lasanha">
+                    <figcaption>gatos amam lasanha</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section>
+            <h3>3 coisas que gatos odeiam:</h3>
+            <div>
+                <ol>
+                    <li>tratamento de pulgas</li>
+                    <li>trovões</li>
+                    <li>outros gatos</li>
+                </ol>
+            </div>
+            <figure>
+                <img src="cats.jpg" alt="varios gatos">
+                <figcaption>
+                    gatos <strong>odeiam</strong> outros gatos
+                </figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Cat Form</h2>
+
+            <form action="https://freecatphotoapp.com/submit-cat-photo"></form>
+            <fieldset>
+                <legend>O seu gato é um gato de interior ou de exterior?</legend>
+                <label><input type="radio" id="interior" name="interio-exterior" value="interior" checked>Interior</label>
+                <label><input type="radio" id="exterior" name="interio-exterior" value="exterior" checked>Exterior</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual é a personalidade do seu gato?</legend>
+                <input type="checkbox" name="personalidade" id="amavel" value="amavel" checked><label for="amavel">amavel</label>
+                <input type="checkbox" name="personalidade" id="preguiçoso" value="preguiçoso" checked><label for="preguicoso">preguiçoso</label>
+                <input type="checkbox" name="personalidade" id="energico" value="energico" checked><label for="energico">energico</label>
+            </fieldset>
+
+            <input type="text" name="fotogatourl" placeholder="foto gato url" required>
+            <button type="submit">Confirmar</button>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Desenvolvido por Marco Santos Almeida
+        </p>
+    </footer>
+</body>
+</html>
